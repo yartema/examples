@@ -16,7 +16,7 @@ const props = defineProps({
 const isShowWinComment = ref(false)
 const commentLikeValue = ref(props.elem.comment)
 const showPoleText = ref(true)
-const editIconShow = ref(false)
+const editIconShow = ref(false) 
 
 
 //Открываем окно комментария к лайку

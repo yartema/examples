@@ -13,7 +13,7 @@ watch(() => route.params.id, async newId => {
     if (route.name === 'RatingsCourse') await store.dispatch('setListEvents', newId)
 })
 
-//Открываем список лайков
+//Открываем список лайков 
 const openListUsersLike = async (item, id) => {
     if (id === 'all' || item.likes['like_' + id] !== 0) {
         await store.dispatch('setLikeEventUsers', {course_id: item.course_id, event_id: item.event_id, like: id})

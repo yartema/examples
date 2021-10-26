@@ -1,4 +1,4 @@
-@import "/src/assets/scss/static";
+@import "/src/assets/scss/static"; 
 
 
 .cont__view_course {
@@ -25,7 +25,7 @@
   @extend %flex_column_center;
 }
 
-.list_events {;
+.list_events {
   &_wrraper {
 
     &_header__table {

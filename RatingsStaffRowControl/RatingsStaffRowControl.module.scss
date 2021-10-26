@@ -1,6 +1,6 @@
 @import "src/assets/scss/static";
 
-.panel_control__Likes {
+.panel_control__Likes { 
   @extend %flex_row_nowrap;
   justify-content: flex-end;
   align-items: center;
