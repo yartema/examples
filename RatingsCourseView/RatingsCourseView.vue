@@ -1,9 +1,9 @@
-<script setup>
+<script setup> 
 import classes from './RatingsCourseView.module.scss'
-import VueApexCharts from "vue3-apexcharts";
-import {useStore} from "vuex";
-import {useRoute} from "vue-router";
-import {onMounted, watch, ref} from "vue";
+import VueApexCharts from "vue3-apexcharts"
+import {useStore} from "vuex"
+import {useRoute} from "vue-router"
+import {onMounted, watch, ref} from "vue"
 
 
 const store = useStore()

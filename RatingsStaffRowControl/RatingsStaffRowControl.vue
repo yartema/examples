@@ -1,10 +1,10 @@
-<script setup>
+<script setup> 
 import classes from './RatingsStaffRowControl.module.scss'
 import ModalWindow from '/src/components/BaseDialogWindow/BaseDialogWindow.vue'
 import TextContentEditTable from '/src/components/BaseContentedittable/BaseContentedittable.vue'
-import {defineProps, ref} from "vue";
-import {useStore} from "vuex";
-import queryFetch from "../../../hooks/queryFetch";
+import {defineProps, ref} from "vue"
+import {useStore} from "vuex"
+import queryFetch from "../../../hooks/queryFetch"
 
 const store = useStore()
 
