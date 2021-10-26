@@ -122,7 +122,7 @@ class Likes {
 
     /**
     * Закрываем окно выбора лайков
-    */
+    */ 
 
     closeWin() {
         if (document.querySelector('.podskazka-bottom') != null) {

@@ -1,6 +1,6 @@
 <?php
 
-use Phpml\Clustering\FuzzyCMeans;
+use Phpml\Clustering\FuzzyCMeans; 
 
 
 class RatingsController

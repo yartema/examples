@@ -1,4 +1,4 @@
-//Шаблоны html для модульного окна
+//Шаблоны html для модульного окна 
 const getTemplate = (data, type) => {
     const items = data.map(item => {
         if (type == false) {

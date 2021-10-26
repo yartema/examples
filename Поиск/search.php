@@ -1,7 +1,7 @@
 <?php
 require_once('../../config.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/tensor/lib/shared.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/tensor/admin/translit.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/tensor/admin/translit.php'); 
 
 /**
  * Класс для поиска в БД по введенному тексту 
